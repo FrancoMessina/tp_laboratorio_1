@@ -60,7 +60,7 @@ int validarMenu(int limiteInferior,int limiteSuperior)
 	}
 	return opcion;
 }
-int cambiarSignoCero(float numero)
+int verificarSiEsCero(float numero)
 {
 	int todoOk = 1;//Retorno 1 si el numero no es 0
 	if(numero == 0)

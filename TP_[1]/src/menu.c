@@ -32,8 +32,8 @@ void mostrarMultiplicacion(float numeroUno, float numeroDos, float resultadoMult
 {
 	 int numeroUnoEsCero;
 	 int numeroDosEsCero;
-	 numeroUnoEsCero = cambiarSignoCero(numeroUno);
-	 numeroDosEsCero = cambiarSignoCero(numeroDos);
+	 numeroUnoEsCero = verificarSiEsCero(numeroUno);
+	 numeroDosEsCero = verificarSiEsCero(numeroDos);
 	 if(numeroUnoEsCero == 0 || numeroDosEsCero == 0)
 	 {
 		 printf("La multiplicacion de %.2f * %.2f es : 0 \n",numeroUno,numeroDos);
@@ -47,7 +47,7 @@ void mostrarMultiplicacion(float numeroUno, float numeroDos, float resultadoMult
 void mostrarDivision(float numeroUno, float numeroDos, float resultadoDivision, int verificacionDivision)
 {
 	int numeroUnoEsCero;
-	numeroUnoEsCero = cambiarSignoCero(numeroUno);
+	numeroUnoEsCero = verificarSiEsCero(numeroUno);
 	if(verificacionDivision == 1 && numeroUnoEsCero == 1)
 	{
 		printf("La division de %.2f / %.2f es : %.2f \n",numeroUno,numeroDos,resultadoDivision);
