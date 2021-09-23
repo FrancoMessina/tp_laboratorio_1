@@ -1,0 +1,33 @@
+/*
+ * operaciones.c
+ *
+ *  Created on: 21 sep. 2021
+ *      Author: franc
+ */
+#include <stdio.h>
+float sumarDosNumeros(float numeroUno, float numeroDos)
+{
+	float resultado;
+	resultado = numeroUno + numeroDos;
+	return resultado;
+}
+float restarDosNumeros(float numeroUno, float numeroDos)
+{
+	float resultado;
+	resultado = numeroUno + numeroDos;
+	return resultado;
+}
+int dividir(float numeroUno, float numeroDos, float *pResultado)
+{
+	int todoOk = 0;//Error Puntero
+	    if(pResultado != NULL && num2 !=0){
+	        *pResultado = numeroUno /num2;
+	        todoOk=1;//Funciona
+	    }
+	    else{
+	        if(numeroDos == 0){
+	            todoOk = -1;//Error divisor por  0
+	        }
+	    }
+	    return todoOk;
+}

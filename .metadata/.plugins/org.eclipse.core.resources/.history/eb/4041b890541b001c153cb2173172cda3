@@ -1,0 +1,14 @@
+/*
+ * operaciones.h
+ *
+ *  Created on: 21 sep. 2021
+ *      Author: franc
+ */
+
+#ifndef OPERACIONES_H_
+#define OPERACIONES_H_
+float sumarDosNumeros(float numeroUno, float numeroDos);
+float restarDosNumeros(float numeroUno, float numeroDos);
+int dividir(float numeroUno, float numeroDos, float *pResultado);
+
+#endif /* OPERACIONES_H_ */

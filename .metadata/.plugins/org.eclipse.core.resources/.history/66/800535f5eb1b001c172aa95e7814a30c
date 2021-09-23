@@ -1,0 +1,21 @@
+/*
+ * validaciones.h
+ *
+ *  Created on: 21 sep. 2021
+ *      Author: franc
+ */
+
+#ifndef VALIDACIONES_H_
+#define VALIDACIONES_H_
+#include "validaciones.h"
+/// @fn int verificarNumFactorial(float)
+/// @brief
+/// @param flotanteRecibido
+/// @return
+int verificarSiEsEntero(float flotanteRecibido);
+int verificarSiIngresoNumeros(int flagPrimerNumero,int flagSegundoNumero);
+int validarMenu(int limiteInferior,int limiteSuperior);
+void mostrarSiIngresoNumeros(int verificarFlags);
+
+
+#endif /* VALIDACIONES_H_ */

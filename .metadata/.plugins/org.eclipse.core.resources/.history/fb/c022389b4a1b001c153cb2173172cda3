@@ -1,0 +1,12 @@
+/*
+ * operaciones.c
+ *
+ *  Created on: 21 sep. 2021
+ *      Author: franc
+ */
+
+float sumarDosNumeros(float numeroUno, float numeroDos)
+{
+	float resultado;
+	resultado = numeroUno + numeroDos;
+}

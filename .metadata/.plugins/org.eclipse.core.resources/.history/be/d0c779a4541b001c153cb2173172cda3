@@ -1,0 +1,13 @@
+/*
+ * validaciones.h
+ *
+ *  Created on: 21 sep. 2021
+ *      Author: franc
+ */
+
+#ifndef VALIDACIONES_H_
+#define VALIDACIONES_H_
+int verificarNumFactorial(float flotanteRecibido);
+
+
+#endif /* VALIDACIONES_H_ */
