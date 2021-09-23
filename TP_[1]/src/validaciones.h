@@ -26,8 +26,8 @@ int verificarSiIngresoNumeros(int flagPrimerNumero,int flagSegundoNumero);
 /// @return Retorna la opcion elegida por el usuario dentro de los limites.
 int validarMenu(int limiteInferior,int limiteSuperior);
 /// @fn int verificarSiEsCero(float)
-/// @brief Si el flotante recibido es un 0 lo paso a 0 para mostrarlo.
-/// @param numero Flotante recibido
+/// @brief Verifico si el numero es cero.Devuelvo un int con una verificacion.
+/// @param numero Flotante recibido.
 /// @return Retorno 0 Si el flotante recibido es 0 y 1 si no es 0.
 int verificarSiEsCero(float numero);
 
