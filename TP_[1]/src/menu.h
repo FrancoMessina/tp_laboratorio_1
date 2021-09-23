@@ -31,7 +31,7 @@ void mostrarSuma(float numeroUno, float numeroDos, float resultadoSuma);
 void mostrarResta(float numeroUno, float numeroDos, float resultadoResta);
 /// @fn void mostrarMultiplicacion(float, float, double)
 /// @brief Mostrar el resultado de la multplicacion. Dentro de la funcion al manejar variables float
-/// (me puede devolver -0.00, en caso que el resultado sea 0. Por ej: -2.5 * 0 == -0.00)
+/// (me puede devolver -0.00, en caso que el resultado sea 0. Por ej: -2.5 * 0 = -0.00)
 /// .Entonces llamo a una funcion para preguntar si numUno o numDos es 0. Si es asi muestro que el resultado es 0.
 /// @param numeroUno Primer numero ingresado por el usuario.
 /// @param numeroDos Segundo numero ingresado por el usuario.
@@ -46,13 +46,13 @@ void mostrarMultiplicacion(float numeroUno, float numeroDos, float resultadoMult
 void mostrarDivision(float numeroUno, float numeroDos, float resultadoDivision, int verificacionDivision);
 /// @fn void mostrarFactorial(float, double, int)
 /// @brief Mostrar el resultado o si existio un error.Dentro de la funcion al manejar variables float
-/// (me puede devolver -0.00, en caso que el resultado sea 0. Por ej: 0 / 2.5 == -0.00)
+/// (me puede devolver -0.00, en caso que el resultado sea 0. Por ej: 0 / 2.5 = -0.00)
 /// .Entonces llamo a una funcion para preguntar si numUno es 0. Si es asi muestro que el resultado es 0.
 /// @param numero Numero ingresado por el usuario.
 /// @param resultadoFactorial Resultado del factorial si se pudo calcular.
 /// @param verificacionFactorial Si es 1 muestra en pantalla el resultado, si es -1  no se puede calcular
-//el factorial menor a 0, si es -2 no se puede calcular el factorial de un numero
-//con decimales , y si es -3 no se puede calcular el factorial de un numero mayor a 150.
+///el factorial menor a 0, si es -2 no se puede calcular el factorial de un numero
+///con decimales , y si es -3 no se puede calcular el factorial de un numero mayor a 150.
 void mostrarFactorial(float numero, double resultadoFactorial, int verificacionFactorial);
 /// @fn void mostrarOperandos(int, float, char)
 /// @brief Mostrar en pantalla cuanto vale el operador por ej: A = 10 o A = "No tiene ningun valor"
@@ -64,6 +64,10 @@ void mostrarOperandos(int flag, float numero, char operador);
 /// @brief Imprimir en pantalla si ingreso los numeros.
 /// @param verificarFlags Es un entero que va a evaluar los siguientes casos:  0 No ingreso los dos numeros, - 1 No ingreso el segundo numero, -2 no ingreso el primer numero.
 void mostrarSiIngresoNumeros(int verificarFlags);
-
+/// @fn void mostrarCalculosARealizar(float, float)
+/// @brief Muestra los calculos a relizar. Suma,Resta,Division,Factorial de cada numero, Multiplicacion
+/// @param numeroUno El primer numero ingresado
+/// @param numeroDos Segundo numero ingresado
+void mostrarCalculosARealizar(float numeroUno, float numeroDos);
 
 #endif /* MENU_H_ */

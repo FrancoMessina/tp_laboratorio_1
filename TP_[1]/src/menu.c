@@ -132,3 +132,12 @@ void mostrarSiIngresoNumeros(int verificarFlags)
 		}
 	}
 }
+void mostrarCalculosARealizar(float numeroUno, float numeroDos)
+{
+	printf("1)Calcular la suma de  %.2f + %.2f = ?\n",numeroUno,numeroDos);
+	printf("2)Calcular la resta de %.2f - %.2f = ?\n",numeroUno,numeroDos);
+	printf("3)Calcular la multiplicacion de  %.2f * %.2f = ?\n",numeroUno,numeroDos);
+	printf("4)Calcular la division de  %.2f / %.2f = ?\n",numeroUno,numeroDos);
+	printf("5-A)Calcular el factorial de !%.2f = ?\n",numeroUno);
+	printf("5-B)Calcular el factorial de !%.2f = ?\n",numeroDos);
+}

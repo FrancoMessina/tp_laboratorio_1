@@ -59,6 +59,7 @@ int main(void) {
 					verificacionFactorialUno= calcularFactorial(numeroUno,&resultadoFactorialUno);
 					verificacionFactorialDos= calcularFactorial(numeroDos,&resultadoFactorialDos);
 					flagCalculosRealizados = 1;
+					mostrarCalculosARealizar(numeroUno,numeroDos);
 					printf("Calculos realizados\n");
 				}
 				else
@@ -75,6 +76,7 @@ int main(void) {
 					mostrarDivision(numeroUno,numeroDos, resultadoDivision,verificacionDivision);
 					mostrarFactorial(numeroUno, resultadoFactorialUno, verificacionFactorialUno);
 					mostrarFactorial(numeroDos, resultadoFactorialDos, verificacionFactorialDos);
+
 				}
 				else
 				{
