@@ -93,7 +93,7 @@ void mostrarFactorial(float numero, double resultadoFactorial, int verificacionF
 			}
 			else
 			{
-				printf("Error no se puede calcular el factorial de un numero mayor a 150\n");
+				printf("Error no se puede calcular el factorial de un numero mayor a 21 \n");
 			}
 		}
 	}

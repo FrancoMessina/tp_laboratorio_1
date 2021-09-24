@@ -51,7 +51,7 @@ int calcularFactorial(float numero, double *pResultado)
 	int todoOk = 0;//Error puntero
 	double fact = 1;
 	int numeroEsEntero = verificarSiEsEntero(numero);
-	if(pResultado != NULL && numero >= 0 && numeroEsEntero == 1 && numero < 150)
+	if(pResultado != NULL && numero >= 0 && numeroEsEntero == 1 && numero < 22)
 	{
 		for(int i = numero; i > 1;i--)
 		{
@@ -74,7 +74,7 @@ int calcularFactorial(float numero, double *pResultado)
 			}
 			else
 			{
-				todoOk = -3; //Error por ser mayor a  150
+				todoOk = -3; //Error por ser mayor a  21
 			}
 
 		}

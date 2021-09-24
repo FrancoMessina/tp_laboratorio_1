@@ -36,7 +36,7 @@ float multiplicarDosNumeros(float numeroUno, float numeroDos);
 /// @brief Calcular el factorial de un numero entero por ejemplo: 12.00. Y devolver un int para verificar si se pudo calcular
 /// @param numero Numero ingresado por el usuario
 /// @param pResultado Puntero double donde se va a guardar el resultado
-/// @return Retorna un entero. 1 si Funciona, 0 Error de puntero, -1 Error menor a 0, -2 Error por ser un flotante - 3 error por ser mayor a 150.
+/// @return Retorna un entero. 1 si Funciona, 0 Error de puntero, -1 Error menor a 0, -2 Error por ser un flotante - 3 error por ser mayor a 21.
 int calcularFactorial(float numero, double *pResultado);
 
 #endif /* OPERACIONES_H_ */

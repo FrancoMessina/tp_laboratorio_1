@@ -52,7 +52,7 @@ void mostrarDivision(float numeroUno, float numeroDos, float resultadoDivision, 
 /// @param resultadoFactorial Resultado del factorial si se pudo calcular.
 /// @param verificacionFactorial Si es 1 muestra en pantalla el resultado, si es -1  no se puede calcular
 ///el factorial menor a 0, si es -2 no se puede calcular el factorial de un numero
-///con decimales , y si es -3 no se puede calcular el factorial de un numero mayor a 150.
+///con decimales , y si es -3 no se puede calcular el factorial de un numero mayor a 21.
 void mostrarFactorial(float numero, double resultadoFactorial, int verificacionFactorial);
 /// @fn void mostrarOperandos(int, float, char)
 /// @brief Mostrar en pantalla cuanto vale el operador por ej: A = 10 o A = "No tiene ningun valor"
