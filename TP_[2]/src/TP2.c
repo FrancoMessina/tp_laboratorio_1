@@ -3,7 +3,7 @@
 #include "ArrayEmployees.h"
 #include "input.h"
 #include "Menu.h"
-#define TAM 10
+#define TAM 1000
 #define ASCENDENTE 1
 #define DESCENDENTE 0
 int main(void) {
