@@ -23,16 +23,9 @@ int ingresarEntero(char mensaje[]);
 /// @param mensaje
 /// @return Retorna el numero ingresado por el usuario
 float ingresarFlotante(char mensaje[]);
-/// @fn int validarRangoEntero(int, int, int)
-/// @brief Validar rango de un numero entero con limites.
-/// @param valor
-/// @param limiteInferior
-/// @param limiteSuperior
-/// @return Retorna 0 si no esta en el rango. 1 Si esta en el rango.
-int validarRangoEntero(int valor, int limiteInferior, int limiteSuperior);
-/// @fn int stringPrimeroLetraMayuscula(char[])
-/// @brief Pasa la primer letra de una palabra/palabras a mayuscula y todas las demas en miniscula
-/// @param string
-/// @return 0 Si hay error de length o NULL pointer. 1 Si Ok.
-int stringPrimeroLetraMayuscula(char string[]);
+/// @fn int pedirOpcion(void)
+/// @brief Pedir opciones del menu y retorna ese valor.
+/// @return La opcion que eligio el usuario
+int pedirOpcion(void);
+
 #endif /* INPUT_H_ */

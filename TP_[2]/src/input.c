@@ -43,35 +43,18 @@ float ingresarFlotante(char mensaje[])
     return numeroIngresado;
 
 }
-int validarRangoEntero(int valor, int limiteInferior, int limiteSuperior)
+
+int pedirOpcion(void)
 {
-    int todoOk = 0;
-    if(valor >= limiteInferior && valor <= limiteSuperior )
-    {
-        todoOk = 1;
-    }
-    return todoOk;
+	int opcion;
+	system("cls");
+	printf("[1]ALTA EMPLEADO\n");
+	printf("[2]MODIFICACION EMPLEADO\n");
+	printf("[3]BAJA EMPLEADO\n");
+	printf("[4]LISTADO EMPLEADOS\n");
+	printf("[5]GRACIAS POR USAR EL PROGAMA \n");
+	fflush(stdin);
+	scanf("%d",&opcion);
+	return opcion;
 }
-int stringPrimeroLetraMayuscula(char string[])
-{
-    int todoOk = 0;
-    int i = 0;
 
-    if(string != NULL)
-    {
-        strlwr(string);
-        string[0] = toupper(string[0]);
-        while(string[i] != '\0')
-        {
-            if(string[i] == ' ')
-            {
-                string[i+1] = toupper(string[i+1]);
-            }
-
-            i++;
-        }
-        todoOk = 1;
-    }
-
-    return todoOk;
-}

@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "ArrayEmployees.h"
 #include "input.h"
-#include "Menu.h"
+#include "validaciones.h"
 #define TAM 1000
 #define ASCENDENTE 1
 #define DESCENDENTE 0
@@ -118,16 +118,16 @@ int main(void) {
 				}
 			}
 			break;
-		 case 5:
-				printf("[5]GRACIAS POR USAR EL PROGAMA\n");
-				seguir = 'n';
-				break;
-			default:
-				printf("Opcion incorrecta \n");
-				break;
-			}
-			system("pause");
+		case 5:
+			printf("[5]GRACIAS POR USAR EL PROGAMA\n");
+			seguir = 'n';
+			break;
+		default:
+			printf("Opcion incorrecta \n");
+			break;
 		}
+		system("pause");
+	}
 	while(seguir == 's');
 	return EXIT_SUCCESS;
 }
