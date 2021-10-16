@@ -44,16 +44,17 @@ int stringPrimerLetraMayuscula(char string[])
     return todoOk;
 }
 
-int validarLargoString(char string[],char mensaje [], int min , int max)
+int validarLargoString(char string[], int min , int max)
 {
 	int todoOk = 0;
-	if(string != NULL && mensaje != NULL)
+	if(string != NULL)
 	{
-		while(strlen(string) < min || strlen(string) > max)
+
+		if(strlen(string) < min || strlen(string) > max)
 		{
-			ingresarString(mensaje, string);
+			todoOk = 1;
 		}
-		todoOk = 1;
+
 	}
 	return todoOk;
 
@@ -67,3 +68,24 @@ int verificarSueldo(float numero,int min , int max)
 	}
 	return todoOk;
 }
+int verificarSiContieneNumero(char list[])
+{
+    int todoOk = 0;
+    if(list!= NULL)
+    {
+    	for (int i = 0; i < strlen(list); i++)
+    	{
+    		todoOk = -1;
+    		if(!(isalpha(list[i])))
+    		{
+    			todoOk = 1;
+    			break;
+    		}
+    	}
+
+    }
+
+    return todoOk;
+}
+
+

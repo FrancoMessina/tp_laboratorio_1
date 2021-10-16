@@ -46,6 +46,9 @@ float ingresarFlotante(char mensaje[])
 
 int pedirOpcion(void)
 {
+	printf("-------------------------------\n");
+	printf("  *** ABM EMPLEADOS ***\n\n");
+	printf("-------------------------------\n");
 	int opcion;
 	system("cls");
 	printf("[1]ALTA EMPLEADO\n");

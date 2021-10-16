@@ -15,6 +15,7 @@
 #define CARGADO 0
 #define SUELDO_MIN 500
 #define SUELDO_MAX 1000000
+#define TRUE 1
 int initEmployees(Employee *list,int len)//Primer funcion
 {
 	int todoOk = -1;
@@ -133,9 +134,9 @@ int modificarEmployee(Employee *list,int len)
 	int id;
 	int flagYes;
 	int flagNo;
-	char seguir[4] = "Yes";
-	char auxName[40];
-	char auxLastName[40];
+	char seguir[101];
+	char auxName[101];
+	char auxLastName[101];
 	float auxSalary;
 	int auxSector;
 	if(list != NULL && len >0)
@@ -162,13 +163,19 @@ int modificarEmployee(Employee *list,int len)
 				{
 				case 1:
 					ingresarString("Ingresa el nombre : ",auxName);
-					validarLargoString(auxName,"Error, Ingresa un Nombre. Como min 3 char, max 16 : ", 3 , 16);
+					while(verificarSiContieneNumero(auxName) == TRUE || validarLargoString(auxName,3, 16))
+					{
+						ingresarString("Error(Ingresa solo caracteres),Min 3 letras Max 16. Ingresa el Nombre: ", auxName);
+					}
 					stringPrimerLetraMayuscula(auxName);
 					strcpy(list[indice].name,auxName);
 					break;
 				case 2:
 					ingresarString("Ingresa el Apellido : ",auxLastName);
-					validarLargoString(auxLastName ,"Error, Ingresa un Nombre. Como min 3 char, max 16 : ", 3 , 16);
+					while(verificarSiContieneNumero(auxLastName) == TRUE|| validarLargoString(auxLastName,3, 16))
+					{
+						ingresarString("Error(Ingresa solo caracteres),Min 3 letras Max 16. Ingresa el Apellido: ", auxLastName);
+					}
 					stringPrimerLetraMayuscula(auxLastName);
 					strcpy(list[indice].lastName,auxLastName);
 					break;
@@ -429,17 +436,23 @@ int sortEmployeeBySector(Employee* list, int  len , int order)
 int cargarEmployee(int *pId, char name[],char lastName[],float *salary,int *sector)
 {
 	int todoOk = 0;
-	char auxName[40];
-	char auxLastName[40];
+	char auxName[101];
+	char auxLastName[101];
 	float auxSalary;
 	int auxSector;
 	if(name != NULL && lastName != NULL && pId != NULL && salary != NULL && sector != NULL)
 	{
 		(*pId)++;
 		ingresarString("Ingresa el nombre : ", auxName);
-		validarLargoString(auxName,"Error, Ingresa un Nombre. Como min 3 char, max 16 : ", 3 , 16);
+		while(verificarSiContieneNumero(auxName) == TRUE || validarLargoString(auxName,3, 16))
+		{
+			ingresarString("Error(Ingresa solo caracteres),Min 3 letras Max 16. Ingresa el Nombre: ", auxName);
+		}
 		ingresarString("Ingresa el apellido: ", auxLastName);
-		validarLargoString(auxName,"Error, Ingresa un Apellido. Como min 3 char, max 16 : ", 3 , 16);
+		while(verificarSiContieneNumero(auxLastName) == TRUE || validarLargoString(auxLastName,3, 16))
+		{
+			ingresarString("Error(Ingresa solo caracteres),Min 3 letras Max 16. Ingresa el Apellido: ", auxLastName);
+		}
 		auxSalary = ingresarFlotante("Ingresa el salario del empleado : ");
 		while(!verificarSueldo(auxSalary,SUELDO_MIN,SUELDO_MAX))
 		{

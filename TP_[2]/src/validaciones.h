@@ -26,7 +26,7 @@ int stringPrimerLetraMayuscula(char string[]);
 /// @param min
 /// @param max
 /// @return 0 Si hay error de length o NULL pointer. 1 Si Ok.
-int validarLargoString(char string[],char mensaje [], int min , int max);
+int validarLargoString(char string[], int min , int max);
 /// @fn int verificarSueldo(float, int, int)
 /// @brief  Verificar si el sueldo esta dentro del minimo y maximo
 /// @param numero
@@ -34,5 +34,10 @@ int validarLargoString(char string[],char mensaje [], int min , int max);
 /// @param max
 /// @return 0 Si el sueldo no esta en el rango. 1 Si Ok.
 int verificarSueldo(float numero, int min , int max);
+/// @brief  Verificar si la cadena contiene algun un numero. Apenas lo detecta hace un break y sale del for
+/// @param list
+/// @return 0 Si error NULL , 1 si contiene algun numero. -1 Si no contiene numero.
+int verificarSiContieneNumero(char list[]);
+
 
 #endif /* VALIDACIONES_H_ */
