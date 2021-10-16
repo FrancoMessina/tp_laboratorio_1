@@ -58,10 +58,10 @@ int validarLargoString(char string[],char mensaje [], int min , int max)
 	return todoOk;
 
 }
-int verificarSueldo(float numero)
+int verificarSueldo(float numero,int min , int max)
 {
 	int todoOk = 0;
-	if(numero > 0)
+	if(numero >= min && numero <= max)
 	{
 		todoOk = 1;
 	}

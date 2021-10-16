@@ -13,6 +13,8 @@
 #include "validaciones.h"
 #define VACIO 1
 #define CARGADO 0
+#define SUELDO_MIN 500
+#define SUELDO_MAX 1000000
 int initEmployees(Employee *list,int len)//Primer funcion
 {
 	int todoOk = -1;
@@ -172,9 +174,9 @@ int modificarEmployee(Employee *list,int len)
 					break;
 				case 3:
 					auxSalary = ingresarFlotante("Ingresar el salario : ");
-					while(!verificarSueldo(auxSalary))
+					while(!verificarSueldo(auxSalary,SUELDO_MIN,SUELDO_MAX))
 					{
-						auxSalary = ingresarFlotante("Error(Salario mayor a 0). Ingresar el salario : ");
+						auxSalary = ingresarFlotante("Error(Salario Mayor a $500 y menor a $1.000.000). Ingresar el salario : ");
 					}
 					list[indice].salary = auxSalary;
 					break;
@@ -439,9 +441,9 @@ int cargarEmployee(int *pId, char name[],char lastName[],float *salary,int *sect
 		ingresarString("Ingresa el apellido: ", auxLastName);
 		validarLargoString(auxName,"Error, Ingresa un Apellido. Como min 3 char, max 16 : ", 3 , 16);
 		auxSalary = ingresarFlotante("Ingresa el salario del empleado : ");
-		while(!verificarSueldo(auxSalary))
+		while(!verificarSueldo(auxSalary,SUELDO_MIN,SUELDO_MAX))
 		{
-			auxSalary = ingresarFlotante("Error(Salario mayor a 0). Ingresar el salario : ");
+			auxSalary = ingresarFlotante("Error(Salario Mayor a $500 y menor a $1.000.000). Ingresar el salario : ");
 		}
 		*salary = auxSalary;
 		auxSector = ingresarEntero("Ingresa el sector : [1]Contabilidad [2] Finanzas [3] Recursos Humanos [4] Sistemas : ");

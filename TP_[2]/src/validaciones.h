@@ -27,5 +27,12 @@ int stringPrimerLetraMayuscula(char string[]);
 /// @param max
 /// @return 0 Si hay error de length o NULL pointer. 1 Si Ok.
 int validarLargoString(char string[],char mensaje [], int min , int max);
-int verificarSueldo(float numero);
+/// @fn int verificarSueldo(float, int, int)
+/// @brief  Verificar si el sueldo esta dentro del minimo y maximo
+/// @param numero
+/// @param min
+/// @param max
+/// @return 0 Si el sueldo no esta en el rango. 1 Si Ok.
+int verificarSueldo(float numero, int min , int max);
+
 #endif /* VALIDACIONES_H_ */
