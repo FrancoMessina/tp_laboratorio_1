@@ -115,12 +115,12 @@ int removeEmployee(Employee *list,int id,int len)
 			{
 			case 1:
 				list[indice].isEmpty = VACIO;
+				todoOk = 0;
 				break;
 			case 2:
-				printf("Baja cancelada");
+				printf("Baja cancelada\n");
 				break;
 			}
-			todoOk = 0;
 		}
 
 	}
