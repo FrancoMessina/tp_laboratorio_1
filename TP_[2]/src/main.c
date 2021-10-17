@@ -106,7 +106,7 @@ int main(void) {
 						sortEmployees(lista,DESCENDENTE,TAM);
 					}
 					printEmployees(lista,TAM);
-					break;
+				break;
 				case 2:
 					mostrarTotalSalarios(lista,TAM);
 					mostrarPromSalarios(lista,TAM);

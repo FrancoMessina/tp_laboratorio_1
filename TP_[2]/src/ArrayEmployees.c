@@ -225,7 +225,6 @@ int sortEmployees(Employee *list,int order, int len)
 	if(list != NULL && len > 0)
 	{
 		opcion = ingresarEntero("Queres ordenar por Apellido o Sector. [1]Apellido [2]Sector : ");
-		validarRangoEntero(opcion,1,2);
 		while(!validarRangoEntero(opcion,1,2))
 		{
 			opcion = ingresarEntero("Error. Queres ordenar por Apellido o Sector. [1]Apellido [2]Sector : ");
@@ -233,11 +232,12 @@ int sortEmployees(Employee *list,int order, int len)
 		switch(opcion)
 		{
 		case 1:
-
 			sortEmployeeByLastName(list, len ,order);
+			printf("ENrtee al case name");
 			break;
 		case 2:
 			sortEmployeeBySector(list, len ,order);
+			printf("Entre al sector");
 			break;
 
 		}
@@ -414,10 +414,11 @@ int sortEmployeeBySector(Employee* list, int  len , int order)
 			{
 				//Devuelve 1 Si J es menor que el primero.
 				//Devuelve -1 Si J es mayor que el primero.
+				// Devuelve 0 si son iguales
 				aux = strcmp(list[i].lastName,list[j].lastName);
 				if(list[j].isEmpty== CARGADO)
 				{
-					if((list[i].sector > list[j].sector && order) || (list[i].sector < list[j].sector && !order) || (aux == 1 && order) || (aux == -1 && !order))
+					if((list[i].sector > list[j].sector && order) || (list[i].sector < list[j].sector && !order) || (aux == 1  && list[i].sector == list[j].sector && order) || (aux == -1  && list[i].sector == list[j].sector && !order))
 
 					{
 						auxEmpleado = list[i];

@@ -76,7 +76,7 @@ int verificarSiContieneNumero(char list[])
     	for (int i = 0; i < strlen(list); i++)
     	{
     		todoOk = -1;
-    		if(!(isalpha(list[i])))
+    		if(!(isalpha(list[i])) && list[i] != ' ')
     		{
     			todoOk = 1;
     			break;
