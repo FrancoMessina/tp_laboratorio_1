@@ -233,11 +233,9 @@ int sortEmployees(Employee *list,int order, int len)
 		{
 		case 1:
 			sortEmployeeByLastName(list, len ,order);
-			printf("ENrtee al case name");
 			break;
 		case 2:
 			sortEmployeeBySector(list, len ,order);
-			printf("Entre al sector");
 			break;
 
 		}
