@@ -171,7 +171,6 @@ int controller_editEmployee(LinkedList* pArrayListEmployee)
 		}
 
 		auxEmployee = controller_searchEmployeeID(pArrayListEmployee,idIngresado,&indice);
-		printf("indice %d",indice);
 		if(indice != -1)
 		{
 
@@ -271,7 +270,7 @@ int controller_removeEmployee(LinkedList* pArrayListEmployee)
 		{
 			printf("\n 						  Empleado a remover \n");
 			printf("--------------------------------------------------------------------------\n");
-			printf(" ID         NOMBRE            HORAST              SUELDO         \n");
+			printf(" ID         NOMBRE            HORAST              SUELDO        \n");
 			printf("---------------------------------------------------------------------------\n");
 			controller_showEmployee(auxEmployee);
 			printf("Queres remover a este empleado? s/n: ");
