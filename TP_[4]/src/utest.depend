@@ -4608,3 +4608,299 @@
 	<string.h>
 	"../inc/LinkedList.h"
 
+1604885114 source:c:\users\franc\desktop\tpl\tp_laboratorio_1\tp_[4]\testing\src\addnodetest.c
+	"../../testing/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/LinkedList.h"
+	"../../testing/inc/Employee.h"
+
+1604885114 c:\users\franc\desktop\tpl\tp_laboratorio_1\tp_[4]\testing\utest.h
+
+1604885114 c:\users\franc\desktop\tpl\tp_laboratorio_1\tp_[4]\inc\linkedlist.h
+
+1604885114 c:\users\franc\desktop\tpl\tp_laboratorio_1\tp_[4]\testing\inc\employee.h
+
+1604885114 source:c:\users\franc\desktop\tpl\tp_laboratorio_1\tp_[4]\testing\src\addtest.c
+	"../../testing/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/LinkedList.h"
+	"../../testing/inc/Employee.h"
+
+1604885114 source:c:\users\franc\desktop\tpl\tp_laboratorio_1\tp_[4]\testing\src\cleartest.c
+	"../../testing/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/LinkedList.h"
+	"../../testing/inc/Employee.h"
+
+1604885114 source:c:\users\franc\desktop\tpl\tp_laboratorio_1\tp_[4]\testing\src\clonetest.c
+	"../../testing/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/LinkedList.h"
+	"../../testing/inc/Employee.h"
+
+1604885114 source:c:\users\franc\desktop\tpl\tp_laboratorio_1\tp_[4]\testing\src\containsalltest.c
+	"../../testing/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/LinkedList.h"
+	"../../testing/inc/Employee.h"
+
+1604885114 source:c:\users\franc\desktop\tpl\tp_laboratorio_1\tp_[4]\testing\src\containstest.c
+	"../../testing/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/LinkedList.h"
+	"../../testing/inc/Employee.h"
+
+1604885114 source:c:\users\franc\desktop\tpl\tp_laboratorio_1\tp_[4]\testing\src\deletelinkedlisttest.c
+	"../../testing/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/LinkedList.h"
+	"../../testing/inc/Employee.h"
+
+1604885114 source:c:\users\franc\desktop\tpl\tp_laboratorio_1\tp_[4]\testing\src\employee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../inc/Employee.h"
+
+1604885114 source:c:\users\franc\desktop\tpl\tp_laboratorio_1\tp_[4]\testing\src\getnodetest.c
+	"../../testing/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/LinkedList.h"
+	"../../testing/inc/Employee.h"
+
+1604885114 source:c:\users\franc\desktop\tpl\tp_laboratorio_1\tp_[4]\testing\src\gettest.c
+	"../../testing/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/LinkedList.h"
+	"../../testing/inc/Employee.h"
+
+1604885114 source:c:\users\franc\desktop\tpl\tp_laboratorio_1\tp_[4]\testing\src\indexoftest.c
+	"../../testing/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/LinkedList.h"
+	"../../testing/inc/Employee.h"
+
+1604885114 source:c:\users\franc\desktop\tpl\tp_laboratorio_1\tp_[4]\testing\src\isemptytest.c
+	"../../testing/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/LinkedList.h"
+	"../../testing/inc/Employee.h"
+
+1604885114 source:c:\users\franc\desktop\tpl\tp_laboratorio_1\tp_[4]\testing\src\lentest.c
+	"../../testing/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/LinkedList.h"
+	"../../testing/inc/Employee.h"
+
+1604885114 source:c:\users\franc\desktop\tpl\tp_laboratorio_1\tp_[4]\testing\src\main_test.c
+	"../../testing/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	"../inc/newTest.h"
+	"../inc/addTest.h"
+	"../inc/getNodeTest.h"
+	"../inc/addNodeTest.h"
+	"../inc/deleteLinkedListTest.h"
+	"../inc/lenTest.h"
+	"../inc/getTest.h"
+	"../inc/containsTest.h"
+	"../inc/setTest.h"
+	"../inc/removeTest.h"
+	"../inc/clearTest.h"
+	"../inc/cloneTest.h"
+	"../inc/pushTest.h"
+	"../inc/indexOfTest.h"
+	"../inc/isEmptyTest.h"
+	"../inc/popTest.h"
+	"../inc/subListTest.h"
+	"../inc/containsAllTest.h"
+	"../inc/sortTest.h"
+
+1604885114 c:\users\franc\desktop\tpl\tp_laboratorio_1\tp_[4]\testing\inc\newtest.h
+
+1604885114 c:\users\franc\desktop\tpl\tp_laboratorio_1\tp_[4]\testing\inc\addtest.h
+
+1604885114 c:\users\franc\desktop\tpl\tp_laboratorio_1\tp_[4]\testing\inc\getnodetest.h
+
+1604885114 c:\users\franc\desktop\tpl\tp_laboratorio_1\tp_[4]\testing\inc\addnodetest.h
+
+1604885114 c:\users\franc\desktop\tpl\tp_laboratorio_1\tp_[4]\testing\inc\deletelinkedlisttest.h
+
+1604885114 c:\users\franc\desktop\tpl\tp_laboratorio_1\tp_[4]\testing\inc\lentest.h
+
+1604885114 c:\users\franc\desktop\tpl\tp_laboratorio_1\tp_[4]\testing\inc\gettest.h
+
+1604885114 c:\users\franc\desktop\tpl\tp_laboratorio_1\tp_[4]\testing\inc\containstest.h
+
+1604885114 c:\users\franc\desktop\tpl\tp_laboratorio_1\tp_[4]\testing\inc\settest.h
+
+1604885114 c:\users\franc\desktop\tpl\tp_laboratorio_1\tp_[4]\testing\inc\removetest.h
+
+1604885114 c:\users\franc\desktop\tpl\tp_laboratorio_1\tp_[4]\testing\inc\cleartest.h
+
+1604885114 c:\users\franc\desktop\tpl\tp_laboratorio_1\tp_[4]\testing\inc\clonetest.h
+
+1604885114 c:\users\franc\desktop\tpl\tp_laboratorio_1\tp_[4]\testing\inc\pushtest.h
+
+1604885114 c:\users\franc\desktop\tpl\tp_laboratorio_1\tp_[4]\testing\inc\indexoftest.h
+
+1604885114 c:\users\franc\desktop\tpl\tp_laboratorio_1\tp_[4]\testing\inc\isemptytest.h
+
+1604885114 c:\users\franc\desktop\tpl\tp_laboratorio_1\tp_[4]\testing\inc\poptest.h
+
+1604885114 c:\users\franc\desktop\tpl\tp_laboratorio_1\tp_[4]\testing\inc\sublisttest.h
+
+1604885114 c:\users\franc\desktop\tpl\tp_laboratorio_1\tp_[4]\testing\inc\containsalltest.h
+
+1604885114 c:\users\franc\desktop\tpl\tp_laboratorio_1\tp_[4]\testing\inc\sorttest.h
+
+1604885114 source:c:\users\franc\desktop\tpl\tp_laboratorio_1\tp_[4]\testing\src\newtest.c
+	"../../testing/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/LinkedList.h"
+
+1604885114 source:c:\users\franc\desktop\tpl\tp_laboratorio_1\tp_[4]\testing\src\poptest.c
+	"../../testing/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/LinkedList.h"
+	"../../testing/inc/Employee.h"
+
+1604885114 source:c:\users\franc\desktop\tpl\tp_laboratorio_1\tp_[4]\testing\src\pushtest.c
+	"../../testing/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/LinkedList.h"
+	"../../testing/inc/Employee.h"
+
+1604885114 source:c:\users\franc\desktop\tpl\tp_laboratorio_1\tp_[4]\testing\src\removetest.c
+	"../../testing/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/LinkedList.h"
+	"../../testing/inc/Employee.h"
+
+1604885114 source:c:\users\franc\desktop\tpl\tp_laboratorio_1\tp_[4]\testing\src\settest.c
+	"../../testing/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/LinkedList.h"
+	"../../testing/inc/Employee.h"
+
+1604885114 source:c:\users\franc\desktop\tpl\tp_laboratorio_1\tp_[4]\testing\src\sorttest.c
+	"../../testing/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/LinkedList.h"
+	"../../testing/inc/Employee.h"
+
+1604885114 source:c:\users\franc\desktop\tpl\tp_laboratorio_1\tp_[4]\testing\src\sublisttest.c
+	"../../testing/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/LinkedList.h"
+	"../../testing/inc/Employee.h"
+
+1604885114 source:c:\users\franc\desktop\tpl\tp_laboratorio_1\tp_[4]\testing\utest.c
+	"utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1637686673 source:c:\users\franc\desktop\tpl\tp_laboratorio_1\tp_[4]\src\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../testing/inc/main_test.h"
+	"../inc/LinkedList.h"
+	"controller.h"
+	"jugador.h"
+	"input.h"
+
+1604885114 c:\users\franc\desktop\tpl\tp_laboratorio_1\tp_[4]\testing\inc\main_test.h
+
+1637594185 source:c:\users\franc\desktop\tpl\tp_laboratorio_1\tp_[4]\src\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../inc/LinkedList.h"
+
+1637681378 source:c:\users\franc\desktop\tpl\tp_laboratorio_1\tp_[4]\src\jugador.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"jugador.h"
+
+1637629734 source:c:\users\franc\desktop\tpl\tp_laboratorio_1\tp_[4]\src\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"../inc/LinkedList.h"
+	"jugador.h"
+
+1637605467 c:\users\franc\desktop\tpl\tp_laboratorio_1\tp_[4]\src\jugador.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"parser.h"
+
+1637614870 c:\users\franc\desktop\tpl\tp_laboratorio_1\tp_[4]\src\parser.h
+	"../inc/LinkedList.h"
+
+1637686534 source:c:\users\franc\desktop\tpl\tp_laboratorio_1\tp_[4]\src\input.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"controller.h"
+	"jugador.h"
+
+1637684146 source:c:\users\franc\desktop\tpl\tp_laboratorio_1\tp_[4]\src\controller.c
+	<stdio.h>
+	<stdlib.h>
+	"jugador.h"
+	"parser.h"
+	"controller.h"
+	"../inc/LinkedList.h"
+	<ctype.h>
+	<string.h>
+	"input.h"
+
+1637684161 c:\users\franc\desktop\tpl\tp_laboratorio_1\tp_[4]\src\controller.h
+	"jugador.h"
+	"../inc/LinkedList.h"
+
+1637608065 c:\users\franc\desktop\tpl\tp_laboratorio_1\tp_[4]\src\input.h
+

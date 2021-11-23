@@ -125,13 +125,25 @@
 		<Unit filename="LinkedList.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="controller.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="controller.h" />
+		<Unit filename="input.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="input.h" />
+		<Unit filename="jugador.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="jugador.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Extensions>
-			<code_completion />
-			<debugger />
-			<envvars />
-		</Extensions>
+		<Unit filename="parser.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="parser.h" />
+		<Extensions />
 	</Project>
 </CodeBlocks_project_file>
