@@ -5,7 +5,7 @@
 #include "jugador.h"
 
 
-eJugador* newJugador()//Devuelve un puntero a empleado
+eJugador* newJugador()
 {
 
 	eJugador* nuevoJugador =  (eJugador*)malloc(sizeof(eJugador));
