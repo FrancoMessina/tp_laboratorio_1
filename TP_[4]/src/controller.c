@@ -339,7 +339,7 @@ int controller_sortJugador(LinkedList* pArrayListJugador)
     if (pArrayListJugador != NULL)
     {
         todoOk = 1;
-        printf("Ordenar empleados\n");
+        printf("Ordenar Jugadores\n");
         orden = ingresarEntero("Orden ascendente o descendente : 0 Descendente, 1 Ascendente ");
         while(orden < 0 || orden > 1)
         {
@@ -657,7 +657,6 @@ int controller_PushJugador(LinkedList* pArrayListJugador)
                     && jugador_setGenero(nuevoJugador,genero)
               )
             {
-                //printf("\n** Jugador agregado con exito!! **\n");
                 if(ll_push(pArrayListJugador,indice,nuevoJugador) == -1)
                 {
                     printf("Error \n");
