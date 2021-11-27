@@ -67,6 +67,7 @@ int main(void) {
 			}
 			else
 			{
+				printEmployees(lista,TAM);
 				pedirId = ingresarEntero("Ingresa el ID : ");
 				if(removeEmployee(lista,pedirId,TAM) == -1)
 				{

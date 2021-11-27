@@ -141,6 +141,7 @@ int modificarEmployee(Employee *list,int len)
 	int auxSector;
 	if(list != NULL && len >0)
 	{
+		printEmployees(list, len);
 		id = ingresarEntero("Ingresa el ID que queres modificar");
 		indice = findEmployeeById(list,id,len);
 		if(indice == -1)
@@ -180,11 +181,7 @@ int modificarEmployee(Employee *list,int len)
 					strcpy(list[indice].lastName,auxLastName);
 					break;
 				case 3:
-					auxSalary = ingresarFlotante("Ingresar el salario : ");
-					while(!verificarSueldo(auxSalary,SUELDO_MIN,SUELDO_MAX))
-					{
-						auxSalary = ingresarFlotante("Error(Salario Mayor a $500 y menor a $1.000.000). Ingresar el salario : ");
-					}
+					validarEnteroFloat(&auxSalary,"Ingresar Salario Min 500, Max 1.000.000: "," Error al escribir salario : ", SUELDO_MIN ,SUELDO_MAX, 15);
 					list[indice].salary = auxSalary;
 					break;
 				case 4:
@@ -308,6 +305,7 @@ int cantSuperanSalarioProm(Employee *lista,int len)
 			if(lista[i].isEmpty == CARGADO && lista[i].salary > promSalarios)
 			{
 				contador++;
+				printf("%s %s \n",lista[i].name, lista[i].lastName);
 			}
 		}
 		printf("Superan el salario promedio : %d\n",contador);
@@ -452,11 +450,8 @@ int cargarEmployee(int *pId, char name[],char lastName[],float *salary,int *sect
 		{
 			ingresarString("Error(Ingresa solo caracteres),Min 3 letras Max 16. Ingresa el Apellido: ", auxLastName);
 		}
-		auxSalary = ingresarFlotante("Ingresa el salario del empleado : ");
-		while(!verificarSueldo(auxSalary,SUELDO_MIN,SUELDO_MAX))
-		{
-			auxSalary = ingresarFlotante("Error(Salario Mayor a $500 y menor a $1.000.000). Ingresar el salario : ");
-		}
+		validarEnteroFloat(&auxSalary,"Ingresar Salario Min 500, Max 1.000.000: "," Error al escribir salario : ", SUELDO_MIN ,SUELDO_MAX, 15);
+
 		*salary = auxSalary;
 		auxSector = ingresarEntero("Ingresa el sector : [1]Contabilidad [2] Finanzas [3] Recursos Humanos [4] Sistemas : ");
 		while(!validarRangoEntero(auxSector, 1 , 4))
